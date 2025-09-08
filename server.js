@@ -7,7 +7,7 @@ const app = express();
 
 // Configurar CORS para permitir cookies y solicitudes específicas
 const corsOptions = {
-  origin: ['http://localhost:5173', 'https://alz-connect-app.vercel.app','http://localhost:3000', 'http://127.0.0.1:3001', 'https://alzconnect-server.onrender.com'],
+  origin: ['http://localhost:5173', 'https://alz-connect-app.vercel.app','http://localhost:3000','https://alz-connect-customer.vercel.app', 'http://127.0.0.1:3001', 'https://alzconnect-server.onrender.com'],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
